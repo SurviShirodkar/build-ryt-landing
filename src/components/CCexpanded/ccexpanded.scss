@@ -1,0 +1,38 @@
+.cc-block{
+    background-color:#232931 ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .block{
+        width:18%;
+        color:white;
+        text-align:left;
+        img{
+            height:57px;
+        }
+
+
+        h5{
+            margin-top:10px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 44px;
+            color: #FFFFFF;
+        }
+        p , li{
+            margin-top:20px;
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            color: #D3D4D6;
+        }
+    }
+}
+.hr-line{
+    border-top:1px solid #F9F9F9;
+}

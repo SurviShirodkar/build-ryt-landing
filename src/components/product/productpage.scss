@@ -1,0 +1,142 @@
+.project-city {
+  padding-top: 45px;
+  h1{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width:100%;
+    color: white;
+    position: absolute;
+    font-size: 180px;
+    text-shadow: -1px -1px 0 #dbdde1, 1px -1px 0 #dbdde1, -1px 1px 0 #dbdde1,
+      1px 1px 0 #dbdde1;
+    text-align: right;
+  }
+ 
+ 
+}
+.project-banner {
+  padding-top: 162px;
+  position: relative;
+  h2{
+    position: absolute;
+    font-size: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 117px;
+    color: #232931;
+    padding-left: 10%;
+    margin-top:-3%;
+  }
+
+  img {
+    height: 400px;
+    width: 100%;
+  }
+}
+.pp-section {
+  .diff-block {
+    img {
+      height: 26px;
+      margin-right: 10px;
+    }
+  }
+}
+.living-banner {
+  .left {
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .right {
+    p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 56px;
+      line-height: 57px;
+      color: #232931;
+      text-align: left;
+      padding-left: 5%;
+    }
+  }
+}
+
+.gallery {
+  display: flex;
+
+  flex-direction: row;
+  height: 700px;
+  box-sizing: content-box;
+  margin-bottom: 50px;
+  .gallery-col1 {
+    padding: 10px;
+
+    width: 30%;
+    img {
+      margin-top: 10px;
+    }
+    .img1 {
+      width: 100%;
+      height: 60%;
+    }
+    .img2 {
+      width: 100%;
+      height: 40%;
+    }
+  }
+  .gallery-col2 {
+    width: 50%;
+    .block1 {
+      height: 30%;
+    }
+    .block2 {
+      height: 20%;
+    }
+    .block3,
+    .block4 {
+      height: 25%;
+    }
+    img {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .row2 {
+      width: 100%;
+      p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 96px;
+        color: #232931;
+      }
+    }
+  }
+  .gallery-col3 {
+    width: 20%;
+    img {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .img1 {
+      width: 100%;
+      height: 60%;
+    }
+    .img2 {
+      width: 100%;
+      height: 40%;
+    }
+  }
+}
+.pp-section {
+  .text {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    color: #7b7f83;
+  }
+}

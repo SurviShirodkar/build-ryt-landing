@@ -1,0 +1,103 @@
+.cost-calculation-section {
+  background-image: url("../../Assets/costcalcu-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+
+  .costcalcu-block {
+    padding: 150px 10px;
+
+    .cost-right {
+      background-color: #232931;
+      padding: 5%;
+      p {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 32px;
+        color: #ffffff;
+        text-align: left;
+      }
+      h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52px;
+        color: #e09f20;
+        text-align: left;
+      }
+    }
+  }
+}
+.estimate-cost {
+  background-color: #232931;
+  height: 500px;
+  h1 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #f9f9f9;
+  }
+  table {
+    width: 100%;
+
+    tr {
+      height: 70px;
+      font-family: Roboto Slab;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 32px;
+      color: #f9f9f9;
+      th,
+      td {
+        padding: 0 20px;
+        text-align: left;
+        border: 1px solid white;
+        color: white;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #f9f9f9;
+        .btn {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          img{
+            height:8px;
+          }
+        }
+        .btn:focus {
+          outline: 0;
+          box-shadow:none;
+        }
+        
+        .dropdown-toggle::after {
+          display: none;
+        }
+      }
+    }
+    .cost-goto {
+      width:50%;
+      background: #e09f20;
+      color:black;
+      font-weight:bolder;
+      font-size:25px;
+      cursor: pointer;
+      img{
+        margin-left: 20px;
+        font-size: 10px;
+        width:50px;
+      }
+    }
+  }
+}

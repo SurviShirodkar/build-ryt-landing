@@ -1,0 +1,52 @@
+.ep-section{
+    background-color: #232931;
+    margin-top:-90px;
+    padding-top:150px;
+       .ep-block{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        .projects {
+            width:30%;
+            
+          img {
+            height: auto;
+            width: 100%;
+            margin-top: 50px;
+          }
+          h5 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 86%;
+            text-align: left;
+            color: #ffffff;
+            margin-top: 20px;
+          }
+          h6 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 86%; /* or 41px */
+            text-align: left;
+            color: #ffffff;
+          }
+          p {
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 160%;
+            text-align: left;
+            color: #e9eaeb;
+            margin-top: 20px;
+          }
+        }
+    }
+}
+
+

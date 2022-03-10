@@ -1,0 +1,60 @@
+
+.navbar-section{
+    height:70px;
+    width: 100%;
+    position: absolute;
+    padding:10px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #232931;
+    .container-fluid{
+        padding: 0 10%;
+    }
+    
+    
+    .dropdown-toggle::after {
+        display:none;
+    }
+    .dropdown-bg{
+        background-color:#F4F4F4;
+        border-radius: 15px;
+        padding:10px 35px;
+    }
+    .nav-link{
+        color: #232931 !important;
+       
+    }
+    .location-icon{
+        height:25px;
+        margin-right: 10px;
+    }
+    li{
+        padding-left:25px;
+        a{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 13px;
+            line-height: 22px;
+            color: #232931;
+         
+        }
+       
+    }
+    .main-logo{
+        width:180px;
+    }
+    &.dark-navbar{
+        li{
+            a{
+                color:white !important;
+            }
+            .dropdown-bg{
+              background-color:#141313;
+            }
+        }
+      } 
+}
