@@ -1,0 +1,23 @@
+$iphone5-width: 374px;
+$iphone6-width: 375px;
+$iphone5-real-width: 320px;
+$medium-phone-width: 321px;
+$tab-width: 700px;
+$desktop-width: 992px;
+@mixin medium-phone {
+  @media (min-width: #{$medium-phone-width}) and (max-width: #{$tab-width} ) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (min-width: #{$tab-width})and (max-width: #{$desktop-width} ) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
