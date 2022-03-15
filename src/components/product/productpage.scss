@@ -1,3 +1,4 @@
+@import "../../default.scss";
 .project-city {
   padding-top: 45px;
   h1{
@@ -51,6 +52,9 @@
     }
   }
   .right {
+    @include medium-phone {
+       padding: 15% 10%;
+    }
     p {
       font-family: Montserrat;
       font-style: normal;
@@ -60,21 +64,31 @@
       color: #232931;
       text-align: left;
       padding-left: 5%;
+      @include medium-phone {
+        font-size: 36px;
+       
+      }
     }
   }
 }
 
 .gallery {
   display: flex;
-
+  flex-wrap: wrap;
   flex-direction: row;
-  height: 700px;
+  
   box-sizing: content-box;
   margin-bottom: 50px;
+  @include medium-phone {
+    height: auto;
+  }
   .gallery-col1 {
     padding: 10px;
 
     width: 30%;
+    @include medium-phone {
+      width: 100%;
+    }
     img {
       margin-top: 10px;
     }
@@ -89,11 +103,20 @@
   }
   .gallery-col2 {
     width: 50%;
+    @include medium-phone {
+      width: 100%;
+    }
     .block1 {
       height: 30%;
+      @include medium-phone {
+        width: 50%;
+      }
     }
     .block2 {
       height: 20%;
+      @include medium-phone {
+        width: 100%;
+      }
     }
     .block3,
     .block4 {
@@ -111,11 +134,17 @@
         font-weight: bold;
         font-size: 96px;
         color: #232931;
+        @include medium-phone {
+          font-size: 60px;
+        }
       }
     }
   }
   .gallery-col3 {
     width: 20%;
+    @include medium-phone {
+      width: 100%;
+    }
     img {
       margin-top: 10px;
       margin-left: 10px;

@@ -32,7 +32,7 @@ export default function Packages() {
           <div className="container">
             <h2 className="text-left my-5 ">COMPARE PACKAGES</h2>
             <div className="row mt-2">
-              <div className="col-lg-4">
+              <div className="col-lg-4 mt-3">
                 <div class="dropdown">
                   <button
                     class="btn  dropdown-toggle mx-auto px-4"
@@ -63,7 +63,7 @@ export default function Packages() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 mt-3">
                 <div class="dropdown">
                   <button
                     class="btn  dropdown-toggle mx-auto px-4"
@@ -93,8 +93,36 @@ export default function Packages() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
-                <Dropdown />
+              <div className="col-lg-4 mt-3">
+                {/* <Dropdown /> */}
+                <div class="dropdown">
+                  <button
+                    class="btn  dropdown-toggle mx-auto px-4"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="">
+                      <div class="">SELECT PLAN</div>
+                    </div>
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#" value="action">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#" value="another">
+                      Another action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             {/* {

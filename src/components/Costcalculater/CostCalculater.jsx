@@ -30,7 +30,7 @@ export default function CostCalculater() {
         <div className="container">
           <h1 className="text-white text-left">ESTIMATE COST</h1>
           <div className="container">
-            <table>
+            <table class="table-responsive">
               <tr>
                 <th>Site Dimension (Length in ft)</th>
                 <th>Site Dimension (Width in ft)</th>

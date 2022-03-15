@@ -39,7 +39,7 @@ export default function CCExpanded() {
           </div>
           <hr className="hr-line" />
           <h2 className="text-left text-white  ">HIGHLIGHTS</h2>
-          <div className="d-flex justify-space-between">
+          <div className="highlights">
             {Categoryproperties.map((obj) => (
               <div className="block">
                 <li>{obj.prop1}</li>
@@ -51,7 +51,7 @@ export default function CCExpanded() {
 
           <h2 className="text-left text-white mt-5  ">PRICE</h2>
           <hr className="hr-line" />
-          <div className="d-flex justify-space-between">
+          <div className="d-flex justify-space-between flex-wrap">
             {Categoryprice.map((obj) => (
               <div className="block">
                 <p>{obj.prop1}</p>
@@ -62,7 +62,7 @@ export default function CCExpanded() {
           <h2 className="text-left text-white mt-5  ">COST BREAKUP</h2>
           <hr className="hr-line" />
           {[1, 2, 3, 4].map((obj) => (
-            <div className="d-flex ">
+            <div className="d-flex flex-wrap ">
               {costbreakup.map((obj) => (
                 <div className="block">
                   <p>{obj.prop1}</p>
@@ -73,7 +73,7 @@ export default function CCExpanded() {
           ))}
            <h2 className="text-left text-white mt-5  ">TOTAL COST</h2>
           <hr className="hr-line" />
-          <div className="d-flex justify-space-between">
+          <div className="d-flex justify-space-between flex-wrap">
             {totalcost.map((obj) => (
               <div className="block">
                 <p className="font-weight-bold">{obj.prop1}</p>

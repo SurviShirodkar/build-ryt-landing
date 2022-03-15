@@ -8,7 +8,7 @@ export default function Navbar({ isDark }) {
   const [dropdown, setDropdown] = React.useState(city[0].name);
   return (
     <div className={`navbar-section ${isDark && "dark-navbar"} `}>
-      <nav className="navbar navbar-expand-lg    ">
+      <nav className="navbar navbar-expand-lg  navbar-light ">
         <div className="container-fluid">
           <Link to="/">
             {" "}
@@ -90,6 +90,7 @@ export default function Navbar({ isDark }) {
           </div>
         </div>
       </nav>
+     
     </div>
   );
 }

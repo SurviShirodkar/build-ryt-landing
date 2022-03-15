@@ -1,3 +1,4 @@
+@import "../../default.scss";
 .ep-section{
     background-color: #232931;
     margin-top:-90px;
@@ -10,6 +11,9 @@
         
         .projects {
             width:30%;
+            @include medium-phone {
+              width:100%;
+            }
             
           img {
             height: auto;

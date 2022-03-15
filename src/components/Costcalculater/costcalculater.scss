@@ -1,3 +1,4 @@
+@import "../../default.scss";
 .cost-calculation-section {
   background-image: url("../../Assets/costcalcu-banner.png");
   background-position: center;
@@ -46,6 +47,9 @@
   }
   table {
     width: 100%;
+    &::-webkit-scrollbar {
+      display: none;
+  }
 
     tr {
       height: 70px;
@@ -93,10 +97,16 @@
       font-weight:bolder;
       font-size:25px;
       cursor: pointer;
+      @include medium-phone {
+        font-size: 20px;
+      }
       img{
         margin-left: 20px;
         font-size: 10px;
         width:50px;
+        @include medium-phone {
+          width:30px;
+        }
       }
     }
   }

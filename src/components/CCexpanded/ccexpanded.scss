@@ -1,14 +1,20 @@
+@import "../../default.scss";
 .cc-block{
     background-color:#232931 ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    
+  
     .block{
         width:18%;
         color:white;
         text-align:left;
+        @include medium-phone{
+            width:100%;
+            text-align: center;
+            margin-top: 10px;
+        }
         img{
             height:57px;
         }
@@ -30,6 +36,14 @@
             font-weight: 300;
             font-size: 14px;
             color: #D3D4D6;
+        }
+    }
+    .highlights{
+        display:flex;
+        justify-content:space-between;
+        @include medium-phone {
+            flex-wrap: wrap;
+            width:50%;
         }
     }
 }

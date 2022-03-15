@@ -1,5 +1,9 @@
+@import "../../default.scss";
 .packages-section {
   padding-top: 100px;
+  @include medium-phone{
+    padding-top: 72px;
+  }
   .package-banner {
     .banner-left {
       height: 600px;
@@ -17,9 +21,18 @@
         font-size: 66px;
         color: #232931;
         margin-top: 100px;
+        @include medium-phone {
+          font-size: 40px;
+        }
       }
       .scroll-down {
         margin-top: 50px;
+        @include medium-phone {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          margin-top: 20px;
+        }
         img {
           height: 100px;
         }
@@ -59,6 +72,9 @@
     flex-wrap: nowrap;
     padding-left: 10%;
     overflow: scroll;
+    @include medium-phone {
+      padding-left: 3%;
+    }
     &::-webkit-scrollbar {
       display: none;
     }
@@ -97,6 +113,9 @@
       display: flex;
       align-items: flex-start;
       border-radius: 10px;
+      @include medium-phone {
+        width: 70%;
+      }
       .property{
         min-height: 158px;
       }
