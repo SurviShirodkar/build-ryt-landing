@@ -3,6 +3,9 @@
     background-color: #232931;
     margin-top:-90px;
     padding-top:150px;
+    @include medium-phone {
+      margin-top:0px;
+    }
        .ep-block{
         display: flex;
         flex-direction: row;

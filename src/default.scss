@@ -1,8 +1,8 @@
 $iphone5-width: 374px;
 $iphone6-width: 375px;
 $iphone5-real-width: 320px;
-$medium-phone-width: 321px;
-$tab-width: 700px;
+$medium-phone-width: 250px;
+$tab-width: 768px;
 $desktop-width: 992px;
 @mixin medium-phone {
   @media (min-width: #{$medium-phone-width}) and (max-width: #{$tab-width} ) {
